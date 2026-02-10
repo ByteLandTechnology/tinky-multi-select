@@ -1,3 +1,7 @@
+**tinky-multi-select**
+
+---
+
 # tinky-multi-select
 
 A flexible and interactive multi-select component for building command-line interfaces (CLIs) with [Tinky](https://github.com/ByteLandTechnology/tinky).

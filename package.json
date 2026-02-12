@@ -1,6 +1,6 @@
 {
   "name": "tinky-multi-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multi-select component for Tinky CLI framework",
   "keywords": [
     "tinky",

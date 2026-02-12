@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/ByteLandTechnology/tinky-multi-select/compare/v1.0.0...v1.0.1) (2026-02-12)
+
+### ♻️ Refactoring
+
+- replace internal symbols hook with tinky-figures ([6dbd4a9](https://github.com/ByteLandTechnology/tinky-multi-select/commit/6dbd4a937f374c0a91cd49fd39591bbd01225486))
+
 ## 1.0.0 (2026-02-10)
 
 ### ✨ Features

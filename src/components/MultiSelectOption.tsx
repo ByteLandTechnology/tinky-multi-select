@@ -1,7 +1,7 @@
 import { type ReactNode } from "react";
 import { Box, Text } from "tinky";
+import { useFigures } from "tinky-figures";
 
-import { useSymbols } from "../utils/symbols.js";
 import { useComponentTheme } from "tinky-theme";
 import {
   multiSelectTheme,
@@ -42,7 +42,7 @@ export function MultiSelectOption({
   isSelected,
   children,
 }: MultiSelectOptionProps) {
-  const { POINTER, TICK } = useSymbols();
+  const { pointer, tick } = useFigures();
   const { styles } = useComponentTheme<MultiSelectThemeProps>(
     MULTI_SELECT_COMPONENT_NAME,
     multiSelectTheme,
@@ -51,11 +51,11 @@ export function MultiSelectOption({
 
   return (
     <Box {...styles.option}>
-      {isFocused && <Text {...styles.focusIndicator}>{POINTER}</Text>}
+      {isFocused && <Text {...styles.focusIndicator}>{pointer}</Text>}
 
       <Text {...styles.label}>{children}</Text>
 
-      {isSelected && <Text {...styles.selectedIndicator}>{TICK}</Text>}
+      {isSelected && <Text {...styles.selectedIndicator}>{tick}</Text>}
     </Box>
   );
 }

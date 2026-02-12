@@ -35,4 +35,3 @@
 - [MultiSelectOption](functions/MultiSelectOption.md)
 - [useMultiSelect](functions/useMultiSelect.md)
 - [useMultiSelectState](functions/useMultiSelectState.md)
-- [useSymbols](functions/useSymbols.md)

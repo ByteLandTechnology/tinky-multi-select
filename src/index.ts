@@ -33,6 +33,3 @@ export {
   type MultiSelectTheme,
   type MultiSelectThemeProps,
 } from "./themes/multi-select-theme.js";
-
-// Export symbols
-export { useSymbols } from "./utils/symbols.js";
